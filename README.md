@@ -60,7 +60,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 
 Edit the `ReadMe` file with your answers to the questions below.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). Closures are functions within another function. Closures are used to return the outer functions variables at any point in the code. 
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -81,9 +81,9 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? The closure is used in the function personalDice. You can tell because after that the personalDice function there's another function nested inside of the first function.
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? The number on Dan's roll always changes but the Dan doesn't change at all. The name Dan could change if we used the other variable given.
+c. What is the lexical scope of `newRoll`? only the return function is the lexical scope of newRoll.
 
 
 ### Task 3 - Stretch Goals
